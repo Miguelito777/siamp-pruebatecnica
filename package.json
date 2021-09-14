@@ -9,8 +9,12 @@
   "author": "\"Miguel Menchú\"",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mssql": "^7.2.1"
+    "mssql": "^7.2.1",
+    "sequelize": "^6.6.5",
+    "tedious": "^12.2.0"
   },
   "engines": {
     "node": "12.x"
