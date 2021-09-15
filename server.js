@@ -85,7 +85,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: "http://localhost:3000"
+  origin: "https://pruebatecnica-mp.web.app/"
 };
 
 app.use(cors(corsOptions));
