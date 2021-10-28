@@ -1,10 +1,10 @@
 module.exports = {
-    HOST: "siamp.c8vhmcebxnsn.us-east-2.rds.amazonaws.com",
+    HOST: "ec2-52-87-123-108.compute-1.amazonaws.com",
     PORT: "1434",
-    USER: "admin",
-    PASSWORD: "Jesucristo7778+",
-    DB: "tempdb",
-    dialect: "mssql",
+    USER: "cnramoosmzpsex",
+    PASSWORD: "2e7dbc7182d48be9cd3831a9d20a5a5f8793e58887dd846630ac1c630814bb44",
+    DB: "d34hjkvt60bto6",
+    dialect: "postgres",
     pool: {
       max: 5,
       //min: 0,
@@ -12,3 +12,4 @@ module.exports = {
       //idle: 10000
     }
   };
+  //postgres://cnramoosmzpsex:2e7dbc7182d48be9cd3831a9d20a5a5f8793e58887dd846630ac1c630814bb44@ec2-52-87-123-108.compute-1.amazonaws.com:5432/d34hjkvt60bto6
